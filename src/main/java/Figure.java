@@ -1,6 +1,11 @@
 public abstract class Figure {
+    public Integer size;
 
-    public void setSize(Integer size) {
-        System.out.println("Рандомной фигуре присвоен размер " + size);
+    public Figure(Integer size) {
+        this.size = size;
+    }
+
+    public void getSize() {
+        System.out.println("Размер рандомной фигуры = " + size);
     }
 }
