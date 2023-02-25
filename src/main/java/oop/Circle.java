@@ -1,3 +1,5 @@
+package oop;
+
 public class Circle extends Figure{
     public Circle(Integer size) {
         super(size);

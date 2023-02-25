@@ -1,3 +1,5 @@
+package oop;
+
 public abstract class Figure {
     public Integer size;
 

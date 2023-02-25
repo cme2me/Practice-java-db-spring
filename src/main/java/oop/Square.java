@@ -1,3 +1,5 @@
+package oop;
+
 public class Square extends Figure{
     public Square(Integer size) {
         super(size);
