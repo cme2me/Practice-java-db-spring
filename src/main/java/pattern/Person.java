@@ -1,3 +1,5 @@
+package pattern;
+
 public final class Person {
     private final String firstName;
     private final String lastName;
@@ -54,7 +56,7 @@ public final class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "pattern.Person{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", middleName='" + middleName + '\'' +
