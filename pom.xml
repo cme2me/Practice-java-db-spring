@@ -18,6 +18,26 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>org.hibernate.javax.persistence</groupId>
+      <artifactId>hibernate-jpa-2.1-api</artifactId>
+      <version>1.0.0.Final</version>
+    </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.22</version>
+    </dependency>
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-core</artifactId>
+      <version>5.6.7.Final</version>
+    </dependency>
+    <dependency>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <version>42.2.27</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>Practice-java-db-spring</finalName>
