@@ -1,6 +1,4 @@
-package core.linkedlist;
-
-import java.util.LinkedList;
+package com.example.max.core.linkedlist;
 
 public class CustomLinkedList<T> implements CustomList<T>{
 

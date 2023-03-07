@@ -1,4 +1,4 @@
-package oop;
+package com.example.max.oop;
 
 public abstract class Figure {
     public Integer size;

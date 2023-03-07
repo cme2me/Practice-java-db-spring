@@ -1,6 +1,4 @@
-package pattern;
-
-import pattern.Person;
+package com.example.max.pattern;
 
 public class Main {
     public static void main(String[] args) {

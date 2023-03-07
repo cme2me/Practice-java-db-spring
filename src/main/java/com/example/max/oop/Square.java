@@ -1,4 +1,4 @@
-package oop;
+package com.example.max.oop;
 
 public class Square extends Figure{
     public Square(Integer size) {

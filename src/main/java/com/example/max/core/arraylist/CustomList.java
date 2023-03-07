@@ -1,4 +1,4 @@
-package core.arraylist;
+package com.example.max.core.arraylist;
 
 public interface CustomList<T> {
     int size();

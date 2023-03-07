@@ -1,4 +1,4 @@
-package oop;
+package com.example.max.oop;
 
 import java.util.Arrays;
 import java.util.List;
