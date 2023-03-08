@@ -4,12 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7474cc0f-c123-49c8-a5ad-e94194025e17" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Person.java" afterDir="false" />
+    <list default="true" id="7474cc0f-c123-49c8-a5ad-e94194025e17" name="Changes" comment="Cleaned up the code">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-practice/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-practice/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-practice/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-practice/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-practice/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-practice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-practice/src/main/java/com/example/springpractice/SpringPracticeApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-practice/src/main/java/com/example/springpractice/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-practice/src/main/java/com/example/springpractice/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-practice/src/main/java/com/example/springpractice/dao/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-practice/src/main/java/com/example/springpractice/dao/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-practice/src/main/java/com/example/springpractice/dto/StudentDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-practice/src/main/java/com/example/springpractice/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-practice/src/main/java/com/example/springpractice/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-practice/src/main/java/com/example/springpractice/service/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-practice/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-practice/src/test/java/com/example/springpractice/SpringPracticeApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +36,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -29,7 +47,15 @@
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/spring-practice" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -49,9 +75,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,7 +91,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.SpringPracticeApplication (1)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Practice-java-db-spring" />
@@ -67,8 +99,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringPracticeApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-practice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springpractice.SpringPracticeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringPracticeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-practice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring.springpractice.SpringPracticeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Spring Boot.SpringPracticeApplication" />
+      <item itemvalue="Spring Boot.SpringPracticeApplication (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
