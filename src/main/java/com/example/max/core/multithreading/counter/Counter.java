@@ -1,4 +1,4 @@
-package core.multithreading.counter;
+package com.example.max.core.multithreading.counter;
 
 public class Counter {
     private Integer value = 0;

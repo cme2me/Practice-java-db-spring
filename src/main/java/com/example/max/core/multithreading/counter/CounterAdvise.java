@@ -1,4 +1,4 @@
-package core.multithreading.counter;
+package com.example.max.core.multithreading.counter;
 
 import java.util.concurrent.locks.Lock;
 
