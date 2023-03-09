@@ -9,14 +9,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7474cc0f-c123-49c8-a5ad-e94194025e17" name="Changes" comment="Created a DAO layer with the operation of adding, deleting, changing an entity, selecting records by ID and all records.">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/max/tomcat/TestServlet.java" afterDir="false" />
+    <list default="true" id="7474cc0f-c123-49c8-a5ad-e94194025e17" name="Changes" comment="Cleaned-up the code">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-practice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice/src/main/java/com/example/max/core/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice/src/main/java/com/example/max/core/arraylist/CustomArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice/src/main/java/com/example/max/core/arraylist/CustomList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice/src/main/java/com/example/max/core/linkedlist/CustomLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice/src/main/java/com/example/max/core/linkedlist/CustomList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice/src/main/java/com/example/max/core/linkedlist/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice/src/main/java/com/example/max/core/multithreading/PingPong.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice/src/main/java/com/example/max/core/multithreading/counter/Counter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice/src/main/java/com/example/max/core/multithreading/counter/CounterAdvise.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice/src/main/java/com/example/max/core/multithreading/counter/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice/src/main/java/com/example/max/oop/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice/src/main/java/com/example/max/oop/Figure.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice/src/main/java/com/example/max/oop/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice/src/main/java/com/example/max/oop/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice/src/main/java/com/example/max/oop/Triangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice/src/main/java/com/example/max/pattern/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice/src/main/java/com/example/max/pattern/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice/src/main/java/com/example/max/tomcat/TestServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice/src/main/java/db/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice/src/main/java/db/docker/docker-compose.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice/src/main/java/db/hibernate/dao/StudentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice/src/main/java/db/hibernate/dao/StudentRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice/src/main/java/db/hibernate/entity/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice/src/main/java/db/hibernate/service/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice/src/main/java/db/hibernate/util/HibernateSessionUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-practice/src/main/webapp/index.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,10 +61,12 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="spring-boot" />
+        <entry key="$PROJECT_DIR$/spring-practice" value="spring-partice" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -66,6 +93,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Git.Branch.Popup.ShowAllRemotes": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -76,14 +104,27 @@
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\maxzh\IdeaProjects\Practice-java-db-spring" />
+      <recent name="C:\Users\maxzh\IdeaProjects\Practice-java-db-spring\src" />
+    </key>
+  </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.7">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Practice-java-db-spring" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringPracticeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-practice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springpractice.SpringPracticeApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -177,15 +218,23 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="Spring Boot.SpringPracticeApplication" />
       <item itemvalue="Tomcat Server.Tomcat 10.1.7" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\maxzh\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7474cc0f-c123-49c8-a5ad-e94194025e17" name="Changes" comment="" />
@@ -196,9 +245,32 @@
       <workItem from="1676650134270" duration="482000" />
       <workItem from="1676891155552" duration="4264000" />
     </task>
+    <task id="LOCAL-00001" summary="Cleaned-up the code">
+      <created>1678396919508</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678396919508</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cleaned-up the code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned-up the code" />
   </component>
 </project>
