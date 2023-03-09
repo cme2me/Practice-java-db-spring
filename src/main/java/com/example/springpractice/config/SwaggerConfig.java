@@ -16,4 +16,5 @@ public class SwaggerConfig {
                                 .version("1.0")
                 );
     }
+    //http://localhost:8081/swagger-ui.html
 }
