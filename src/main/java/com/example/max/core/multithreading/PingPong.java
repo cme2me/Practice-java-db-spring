@@ -1,4 +1,4 @@
-package core.multithreading;
+package com.example.max.core.multithreading;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
