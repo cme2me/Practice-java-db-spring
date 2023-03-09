@@ -1,4 +1,4 @@
-package pattern;
+package com.example.max.pattern;
 
 public final class Person {
     private final String firstName;
@@ -56,7 +56,7 @@ public final class Person {
 
     @Override
     public String toString() {
-        return "pattern.Person{" +
+        return "com.example.max.pattern.Person{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", middleName='" + middleName + '\'' +

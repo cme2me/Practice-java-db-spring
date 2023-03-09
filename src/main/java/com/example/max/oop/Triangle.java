@@ -1,4 +1,4 @@
-package oop;
+package com.example.max.oop;
 
 public class Triangle extends Figure {
 

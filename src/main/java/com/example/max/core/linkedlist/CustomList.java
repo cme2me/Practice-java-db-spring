@@ -1,4 +1,4 @@
-package core.linkedlist;
+package com.example.max.core.linkedlist;
 
 public interface CustomList<T> {
     void addFirst(T value);
