@@ -38,6 +38,11 @@
       <artifactId>postgresql</artifactId>
       <version>42.2.27</version>
     </dependency>
+    <dependency>
+      <groupId>com.googlecode.json-simple</groupId>
+      <artifactId>json-simple</artifactId>
+      <version>1.1.1</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>Practice-java-db-spring</finalName>
