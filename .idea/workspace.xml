@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7474cc0f-c123-49c8-a5ad-e94194025e17" name="Changes" comment="spring-practice">
-      <change beforePath="$PROJECT_DIR$/spring-practice" beforeDir="false" />
+    <list default="true" id="7474cc0f-c123-49c8-a5ad-e94194025e17" name="Changes" comment="Counter done">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,12 +18,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="Git.Rebase.Settings">
-    <option name="NEW_BASE" value="spring" />
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -34,11 +38,6 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="workspaceImportEnabled" value="true" />
@@ -55,6 +54,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -65,10 +65,23 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\maxzh\IdeaProjects\Practice-java-db-spring\spring-practice" />
+      <recent name="C:\Users\maxzh\IdeaProjects\Practice-java-db-spring\src\main\java\db\docker" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.StudentService">
+    <configuration name="Counter$Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.multithreading.Counter$Main" />
+      <module name="Practice-java-db-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.multithreading.counter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Practice-java-db-spring" />
@@ -76,9 +89,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="db.hibernate.service.StudentService" />
+      <module name="Practice-java-db-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="db.hibernate.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="core.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.Main" />
+      <module name="Practice-java-db-spring" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="core.multithreading.counter.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.multithreading.counter.Main" />
+      <module name="Practice-java-db-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.multithreading.counter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentService" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.core.Main" />
+        <item itemvalue="Application.core.multithreading.counter.Main" />
+        <item itemvalue="Application.Counter$Main" />
       </list>
     </recent_temporary>
   </component>
@@ -92,7 +142,26 @@
       <updated>1676650132279</updated>
       <workItem from="1676650134270" duration="482000" />
       <workItem from="1676891155552" duration="4264000" />
+      <workItem from="1677485399295" duration="1692000" />
+      <workItem from="1677505662560" duration="4665000" />
+      <workItem from="1678104498949" duration="10744000" />
+      <workItem from="1678193413225" duration="12155000" />
     </task>
+    <task id="LOCAL-00001" summary="PingPong done">
+      <created>1678112717500</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678112717500</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Counter done">
+      <created>1678118521601</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678118521601</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,7 +179,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="spring-practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring-practice" />
+    <MESSAGE value="PingPong done" />
+    <MESSAGE value="Counter done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Counter done" />
   </component>
 </project>
