@@ -9,14 +9,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7474cc0f-c123-49c8-a5ad-e94194025e17" name="Changes" comment="Created a DAO layer with the operation of adding, deleting, changing an entity, selecting records by ID and all records.">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/max/tomcat/TestServlet.java" afterDir="false" />
+    <list default="true" id="7474cc0f-c123-49c8-a5ad-e94194025e17" name="Changes" comment="Fix">
+      <change afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/example/max/db/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/example/spring/docker/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/max/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/max/core/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/max/core/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/max/core/arraylist/CustomArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/max/core/arraylist/CustomArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/max/core/arraylist/CustomList.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/max/core/arraylist/CustomList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/max/core/linkedlist/CustomLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/max/core/linkedlist/CustomLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/max/core/linkedlist/CustomList.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/max/core/linkedlist/CustomList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/max/core/linkedlist/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/max/core/linkedlist/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/max/core/multithreading/PingPong.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/max/core/multithreading/PingPong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/max/core/multithreading/counter/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/max/core/multithreading/counter/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/max/core/multithreading/counter/CounterAdvise.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/max/core/multithreading/counter/CounterAdvise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/max/core/multithreading/counter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/max/core/multithreading/counter/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/max/oop/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/max/oop/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/max/oop/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/max/oop/Figure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/max/oop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/max/oop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/max/oop/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/max/oop/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/max/oop/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/max/oop/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/max/pattern/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/max/pattern/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/max/pattern/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/max/pattern/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/max/tomcat/TestServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/max/tomcat/TestServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/docker/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/max/db/docker/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/hibernate/dao/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/max/db/hibernate/dao/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/hibernate/dao/StudentRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/max/db/hibernate/dao/StudentRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/hibernate/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/max/db/hibernate/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/hibernate/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/max/db/hibernate/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/hibernate/util/HibernateSessionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/max/db/hibernate/util/HibernateSessionUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,10 +66,25 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$/spring-practice" value="spring-partice" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="24cf81be-ba41-4c82-ac45-2473065ad1fe" />
+        <option name="url" value="https://github.com/cme2me/Practice-java-db-spring.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -66,9 +111,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Git.Branch.Popup.ShowAllRemotes": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "C:/Users/maxzh/IdeaProjects/Practice-java-db-spring/spring/src/main/java/com/example/spring/docker",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,14 +128,67 @@
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.7">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\maxzh\IdeaProjects\Practice-java-db-spring\spring\src\main\java\com\example\spring\docker" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\maxzh\IdeaProjects\Practice-java-db-spring\core\src\main\webapp" />
+      <recent name="C:\Users\maxzh\IdeaProjects\Practice-java-db-spring\core\src\main\resources" />
+      <recent name="C:\Users\maxzh\IdeaProjects\Practice-java-db-spring\core\src\main" />
+      <recent name="C:\Users\maxzh\IdeaProjects\Practice-java-db-spring\spring" />
+      <recent name="C:\Users\maxzh\IdeaProjects\Practice-java-db-spring\src\main\java\com\example\max" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.com.example.max.core.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Practice-java-db-spring" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.example.max.core.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.max.core.Main" />
+      <module name="core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.max.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.spring.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringPracticeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-practice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.spring.SpringPracticeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringPracticeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.spring.SpringPracticeApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -176,16 +281,27 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.com.example.max.core.Main" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.SpringPracticeApplication (1)" />
+      <item itemvalue="Spring Boot.SpringPracticeApplication" />
       <item itemvalue="Tomcat Server.Tomcat 10.1.7" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.example.max.core.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\maxzh\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7474cc0f-c123-49c8-a5ad-e94194025e17" name="Changes" comment="" />
@@ -195,10 +311,35 @@
       <updated>1676650132279</updated>
       <workItem from="1676650134270" duration="482000" />
       <workItem from="1676891155552" duration="4264000" />
+      <workItem from="1678402695543" duration="525000" />
+      <workItem from="1678717934203" duration="4458000" />
     </task>
+    <task id="LOCAL-00001" summary="Cleaned-up the code">
+      <created>1678396919508</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678396919508</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cleaned-up the code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned-up the code" />
   </component>
 </project>
